@@ -1,7 +1,8 @@
 body	{
 	margin-top: 0px;
 	padding:0;
-	font-family: 'Cutive Mono', serif;
+	/*font-family: 'Cutive Mono', serif;*/
+    font-family: 'Special Elite', cursive;
 	font-size:100%;
 	line-height:150%;
 }
