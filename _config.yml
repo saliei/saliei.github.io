@@ -11,6 +11,7 @@ disqus_username:
 # Build settings
 markdown: kramdown
 theme: minima
+highlighter: rouge
 
 permalink: /:year/:month/:day/:title/
 
