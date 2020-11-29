@@ -76,12 +76,12 @@ GEM
       thread_safe (~> 0.1)
     yell (2.0.7)
 
-    PLATFORMS
-      ruby
+PLATFORMS
+  ruby
 
 DEPENDENCIES
   html-proofer
-  jekyll (>= 3.6.3)
+  jekyll (= 3.6.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo-data

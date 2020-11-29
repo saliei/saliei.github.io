@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import "colorful.css";
+@font-face {
+    font-family: "EnvyCodeR";
+    src: url(../fonts/EnvyCodeR.ttf)
+}
 body	{
 	margin-top: 0px;
 	padding:0;
-	/*font-family: 'Cutive Mono', serif;*/
-    font-family: 'Inconsolate', monospace;
+    font-family: 'EnvyCodeR', sans-serif;
 	font-size:100%;
 	line-height:150%;
 }
@@ -171,4 +175,8 @@ a:hover	{
 		font-size: 1.5em;
 	}
 
+}
+
+h2, h3 {
+    font-family: 'Cutive Mono', serif;
 }
