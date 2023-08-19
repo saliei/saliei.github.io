@@ -1,0 +1,3 @@
+[submodule "saliei/themes/hello-friend"]
+	path = saliei/themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
