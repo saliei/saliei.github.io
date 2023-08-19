@@ -5,7 +5,7 @@ paginate = 5
 
 [params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
+  contentTypeName = "posts"
   # "light" or "dark"
   defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
@@ -38,6 +38,10 @@ paginate = 5
     # alt = "Your example logo alt text"
 
     [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
