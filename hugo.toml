@@ -40,8 +40,8 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "archive"
-        name = "Archive"
-        url = "/archive"
+        name = "Blog"
+        url = "/blog"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
