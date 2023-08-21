@@ -1,6 +1,7 @@
 +++
 title = "About"
-date = "2019-01-25"
+date = "2022-01-25"
+url = "/about"
 author = "Radek"
 +++
 
