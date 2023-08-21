@@ -27,7 +27,7 @@ paginate = 5
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatList = "Jan 02"
 
     [languages.en.params.logo]
       logoText = "Saeid Aliei"
@@ -40,8 +40,8 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "archive"
-        name = "Blog"
-        url = "/blog"
+        name = "Archive"
+        url = "/archive"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
