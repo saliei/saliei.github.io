@@ -1,8 +1,6 @@
 +++
 title = "About"
-date = "2022-01-25"
 url = "/about"
-author = "Radek"
 +++
 
 # Hi there

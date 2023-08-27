@@ -1,8 +1,7 @@
----
-title: "Showcase"
-date: "2022-01-18"
-author: "Lorem Ipsum"
----
++++
+title = "Showcase"
+url = "/showcase"
++++
 
 ## Header 2
 
