@@ -1,4 +1,4 @@
-baseurl = "http://saliei.com"
+baseurl = "https://saliei.com"
 languageCode = "en-us"
 theme = "himin"
 paginate = 10
