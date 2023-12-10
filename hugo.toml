@@ -1,7 +1,7 @@
-baseurl = "http://saliei.github.io"
+baseurl = "http://saliei.com"
 languageCode = "en-us"
 theme = "himin"
-paginate = 5
+paginate = 10
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -34,10 +34,6 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "Saeid Aliei"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -48,7 +44,3 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
