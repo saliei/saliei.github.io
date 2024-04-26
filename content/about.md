@@ -3,18 +3,8 @@ title = "About"
 url = "/about"
 +++
 
-# Hi there
+# Remain here!
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
-
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
-
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
-
-The theme includes:
-
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-
-So, there you have it... enjoy!
+I am Saeid and I'm the author of this mini blog. I'm a physicist by training and passion and 
+I do scientific programming on the side, although as I progress in life the priorieties have changed. 
+This is mostly what comes to my mind and what I find interesting so that it remains in a corner of the web.
