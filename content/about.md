@@ -2,7 +2,7 @@
 title: "About"
 # date: "2024-11-28"
 # author: "Saeid"
-conver: "images/pic-about.png" 
+conver: "images/pic-about.webp" 
 ---
 
 {{< figure src="/images/pic-about.png" position="center" >}}
