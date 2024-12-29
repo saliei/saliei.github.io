@@ -1,18 +1,13 @@
 baseurl = "https://saliei.io"
 languageCode = "en-us"
 theme = "himin"
-paginate = 10
+pagination.pagerSize = 10
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # "light" or "dark"
   defaultTheme = "light"
-  # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
-  # order menu items manually, if true have to set them in the menu partial file
   manuallyOrderedMenuItems = true
-  # Enable to show reading time in minutes for posts
   showReadingTime = false
 
 [languages]
@@ -28,8 +23,8 @@ paginate = 10
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "Jan 02"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01"
 
     [languages.en.params.logo]
       logoText = "Saeid Aliei"
@@ -37,9 +32,9 @@ paginate = 10
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "articles"
-        name = "Articles"
-        url = "/articles"
+        identifier = "archive"
+        name = "Blog"
+        url = "/blog"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
