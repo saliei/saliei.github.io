@@ -5,7 +5,7 @@ title: "About"
 conver: "images/pic-about.webp" 
 ---
 
-{{< figure src="/images/pic-about.png" position="center" >}}
+{{< figure src="/images/pic-about.webp" position="center" >}}
 
 # Hi!
 
