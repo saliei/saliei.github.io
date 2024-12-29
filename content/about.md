@@ -53,3 +53,5 @@ signs of extraterrestrial intelligence, to name a few.
 The opportunity to contribute to such groundbreaking scientific research is intriguing, to say the least. 
 It's not just about solving complex engineering problems but enabling humanity to explore the cosmos in ways 
 and scales we've never been able to before.
+
+Get into contact: [saeid.aliei[at]gmail[dot]com.](mailto:saeid.aliei@gmail.com)
