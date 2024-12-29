@@ -2,7 +2,7 @@
 title: "Place holder post No 2"
 date: "2024-12-28"
 author: "Saeid"
-cover: "images/hello_pic.jpg"
+cover: "images/hello_pic.webp"
 # description: "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
 ---
 
