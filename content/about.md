@@ -37,7 +37,8 @@ largest supercomputers, Leonardo in Italy.
 ## Current work
 
 SKA is one of the biggest and most ambitious scientific endeavors in history. At full operational scale, 
-it will produce 50 times more data than that of CERN's Large Hadron Collider. 
+it will produce 50 times more data than that of CERN's Large Hadron Collider 
+([LHC](https://home.cern/science/accelerators/large-hadron-collider)). 
 Processing at such immense rates will require innovative algorithms, 
 new computational techniques, and cutting-edge infrastructure. This isn't a mere technological challenge, 
 but an opportunity to reshape how we process, analyze, and interpret scientific data in the modern era.
