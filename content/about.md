@@ -54,4 +54,7 @@ The opportunity to contribute to such groundbreaking scientific research is intr
 It's not just about solving complex engineering problems but enabling humanity to explore the cosmos in ways 
 and scales we've never been able to before.
 
-Get into contact: [saeid.aliei[at]gmail[dot]com.](mailto:saeid.aliei@gmail.com)
+I also recently founded [Aliei Company LTD](https://alieicompany.co.uk), a venture dedicated to creating and 
+delivering innovative AI-driven technologies and solutions.
+
+Get into contact: [saeid.aliei@gmail.com](mailto:saeid.aliei@gmail.com).
