@@ -55,6 +55,6 @@ It's not just about solving complex engineering problems but enabling humanity t
 and scales we've never been able to before.
 
 I also recently founded [Aliei Company LTD](https://alieicompany.co.uk), a venture dedicated to creating and 
-delivering innovative AI-driven technologies and solutions.
+delivering AI-driven technologies and solutions.
 
 Get into contact: [saeid.aliei@gmail.com](mailto:saeid.aliei@gmail.com).
