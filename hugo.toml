@@ -1,7 +1,7 @@
 baseurl = "https://saliei.io"
 languageCode = "en-us"
 theme = "himin"
-pagination.pagerSize = 10
+pagination.pagerSize = 5
 
 [params]
   contentTypeName = "posts"
@@ -24,7 +24,7 @@ pagination.pagerSize = 10
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
     dateFormatSingle = "02-01-2006"
-    dateFormatList = "02-01"
+    dateFormatList = "02-01-2006"
 
     [languages.en.params.logo]
       logoText = "Saeid Aliei"
