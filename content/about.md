@@ -2,10 +2,10 @@
 title: "About"
 # date: "2024-11-28"
 # author: "Saeid"
-conver: "images/pic-about.webp" 
+# cover: "images/cambridge.webp" 
 ---
 
-{{< figure src="/images/pic-about.webp" position="center" >}}
+{{< figure src="/images/cambridge.webp" position="center" >}}
 
 # Hi!
 
