@@ -55,7 +55,4 @@ The opportunity to contribute to such groundbreaking scientific research is intr
 It's not just about solving complex engineering problems but enabling humanity to explore the cosmos in ways 
 and scales we've never been able to before.
 
-I'm also the founder and director of [Aliei Company LTD](https://alieicompany.co.uk), 
-a venture dedicated to developing and delivering AI-driven technologies and solutions.
-
 Ping me at: [saeid.aliei@gmail.com](mailto:saeidaliei@gmail.com).
