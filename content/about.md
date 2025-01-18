@@ -27,7 +27,7 @@ I studied Physics at Isfahan University of Technology([IUT](https://english.iut.
 a Master's in Physics and Astronomy at Sharif University of Technology ([SUT](https://en.sharif.ir/)) in Tehran, Iran. 
 My research thesis was focused on general relativistic effects on cosmological observables and their behavior 
 on the past light cone, combining theoretical and computational physics methods.
-This work led me to pursue a Master's in High-Performance Computing at the 
+This work led me to pursue the Master's in High-Performance Computing ([MHPC](https://mhpc.it)) at the 
 International School for Advanced Studies ([SISSA](https://sissa.it/)) in Trieste, with funding from ICTP, 
 where I worked on the GPU implementation of a computational fluid dynamics solver based on 
 lattice Boltzmann methods, scaling it to run on 1024 A100 NVIDIA GPUs on one of the world's 
@@ -58,4 +58,4 @@ and scales we've never been able to before.
 I'm also the founder and director of [Aliei Company LTD](https://alieicompany.co.uk), 
 a venture dedicated to developing and delivering AI-driven technologies and solutions.
 
-Get into contact: [saeid.aliei@gmail.com](mailto:saeid.aliei@gmail.com).
+Ping me at: [saeid.aliei@gmail.com](mailto:saeidaliei@gmail.com).
