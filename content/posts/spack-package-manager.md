@@ -8,15 +8,14 @@ description: "Recently I gave a talk/mini workshop on spack package manager at 
 	It's a simple idea but not at all easy to implement."
 ---
 Recently I gave a talk/mini workshop on [spack](https://github.com/spack/spack) package manager 
-at SKAO ([available here](https://saliei.io/spack-workshop)), which forced me to dig into the core of spack. 
+at SKAO ([available here](https://saliei.io/spack-workshop)), for which I dug into the core of spack. 
 Spack boasts itself as the package manager for HPC, and it really is. The idea is straightforward, 
 streamline what we normally do when compiling and installing software manually on HPC systems using Python. 
 It's a simple idea but not at all easy to implement. Compiling software is not an easy task, 
 especially the scientific software and the ones that are designed to run on HPC systems on a large scale. 
 Oftentimes, there are a lot of subtleties, and how it's compiled can significantly affect the performance. 
 At the core of spack, there is the concretizer which builds the DAG (Directed Acyclic Graph) for the dependencies. 
-The way it achieves this is interesting, package recipes are written in Python, and especially, 
-they subclass the core class of a specific build system, for example, CMake. 
+The way it achieves this is interesting, package recipes are written in Python, and they subclass a specific build system, for example, CMake. 
 The package dependencies with their constraints are written with `depends_on` directives, 
 and they can be conditioned with a `when` argument, for example, 
 a package may depend on the Intel Math Kernel Libraries (MKL) as its BLAS backend when specifically 
@@ -26,7 +25,7 @@ asked by the user with e.g. `+mkl` specifier in the command line, this will be
 depends_on("intel-onepi-mkl@2023.0.0:", when="+mkl")
 ```
 
-Spack uses Clingo to achieve this. Clingo is the most widely used ASP (Answer Set Programming) 
+Spack uses Clingo to do the concretization. Clingo is the most widely used ASP (Answer Set Programming) 
 solver developed by the University of Potsdam that, uses SAT (Boolean Satisfiability) solver. 
 ASP is a declarative programming that is used for searching and optimization problems. 
 It's particularly good at handling knowledge representation, constraint satisfaction, 
@@ -38,8 +37,8 @@ the concrete specifications, it builds the DAG (Directed Acyclic Graph),
 where nodes represent packages and edges represent dependencies. 
 Each node contains enough information about exactly what needs to be built, 
 and the structure of the graph ensures the proper build order. 
-You can view which stage the solver spends most of its time, 
-and what is the optimization priority criteria:
+The stages where the solver spends most of its time, 
+and what is the optimization priority criteria, can be viewed:
 
 ```bash
 # assume a fresh environment, don't reuse
