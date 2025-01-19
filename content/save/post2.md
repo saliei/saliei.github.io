@@ -1,12 +1,14 @@
 ---
-title: "Place holder post No 2"
+title: "On Evolution"
 date: "2024-12-28"
 author: "Saeid"
 cover: "images/hello_pic.webp"
-# description: "\"Hello, friend?\" That's lame. Maybe I should give you a name?"
+description: "What are the constants of Evolution? How would we evolve on another planet?"
 ---
 
 ## Header 2
+
+Maybe a simulation that does evolution on a planet of some animals.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. **Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
 

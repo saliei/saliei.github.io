@@ -1,8 +1,8 @@
 ---
-title: "Place holder post No 1"
-date: "2024-09-17"
+title: "Cosmos Foundation Model."
+date: "2024-11-23"
 author: "Saeid"
-description: "This is a sample post, read more to read more about it."
+description: "Experiments with NVIDIA's Cosmos model."
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in consequat sem. 
 Cras vestibulum faucibus placerat. Vestibulum congue viverra purus, eu interdum elit vehicula congue. 
