@@ -5,41 +5,60 @@ author: "Saeid"
 description: "At CES 2025 event, NVIDIA announced, among other interesting things, including a single chip made out of\
     72 Blackwell GPUs, with 1.5 ExaFLOPS performance, it's first world foundation model, Cosmos."
 ---
-At CES 2025 event, NVIDIA announced, among other interesting things, including a **single** chip made out of 
-72 Blackwell GPUs, with **1.5 ExaFLOPS** performance, it's first world foundation model, [Cosmos](https://www.nvidia.com/en-gb/ai/cosmos/). 
+At CES 2025, NVIDIA announced several interesting projects, 
+including a single chip of 72 Blackwell GPUs, with 1.5 ExaFLOPS FP4 performance!
+Among the announcements was its first world foundation model, 
+[Cosmos](https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai). 
 
-DeepMind is working on a similar model, and this is also one of xAI's core missions. I suspect that these 
-models are the next frontier in scientific and aritifical intelligence research, after AlphaFold's breakthroughs 
-in protein folding prediction, and now Microsoft's MatterGen model, which is specifically tailored for matter science.
+DeepMind is working on a similar model, and this is also one of xAI's core missions. 
+I suspect that these models are among the next frontier in scientific and AI research, 
+following AlphaFold's breakthroughs in protein folding prediction, 
+and now Microsoft's MatterGen model, which is specifically tailored for material science.
 
-Reading from the [Cosmo's white paper](https://research.nvidia.com/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai), 
-it is designed to be *general purpose* simulator for physical AI systems, e.g. systems that deal with the phycial world, like robots, 
-self-driving cars being one of them, it aims to be a *digital twin* of the physical world, albeit a limited one, at least at the moment.
+Reading from Cosmo's white paper, 
+it is designed to be a *general-purpose* simulator for physical AI systems, 
+e.g. systems that deal with the physical world, like robots, 
+and I take self-driving cars to be also robots. 
+It aims to be the *digital twin* of the physical world, though understandably limited currently.
 
-The video curator handles about 20M of raw videos. Tokenizer has two modes, continuous tokenizer for diffusion models, 
-and a descrete one for autoregressive models. As such it has two types of models, a diffusion-based model, where videos are generated 
-by gradually denoising a random initial noise, which is better in video quality compared to the autoregressive model, where videos 
-are created token by token, which could be faster at generation, both types are available in 4B and 12B parameters, which seems to be 
-low amount, for a foundation model, and least of all, a *physical* foundation model, which I assume has much more free parameters compared 
-to language.
+The model tokenizer has two modes: a continuous tokenizer for diffusion models, 
+and a discrete one for autoregressive models. The diffusion-based model generates videos 
+by gradual denoising of a random initial noise, which is better in video quality 
+compared to the autoregressive model, which generates videos by predicting the next token, 
+which could be faster than diffusers. Both model types are available in 4B and 12B parameters, 
+which seems limited for a foundation model, least of all for a *physical* foundation model, 
+which I'd expect has much more free parameters compared to language models.
 
-It supports multimodel inputs (text, video, camera poses). It generates physically *plausible* videos, and can vastly improve the time to 
-train physical AI systems, like robots and can be even fine-tuned on specific tasks. What genuinely interests me about these physical models, 
-is this question:
+The model generates physically *plausible* videos that improve the training time 
+of physical AI systems by orders of magnitude and can even be fine-tuned on specific tasks. 
+What genuinely interests me about these models is the following question:
 
-**Are these models learning the physical laws?** The so called, **Physical Alignment** problem, at the moment with the current training methods 
-based on customized transformer models, the simple answer is **NO**. But it's very interesting in all of the video generating models, for example 
-simply by looking at a lot of, e.g. fluid flow videos, the model has learned that a fluid flows in a specific manner, that it has viscosity, etc.
-it hasn't solved Navier-Stokes equations in one way or another, it simply has associated the word fluid to certain types of videos. 
-it learns these patterns purely from observational data rather than incorporating actual physics principles or for example classic force calculations.
+**Are these models truly learning the laws of physics?** \
+The so-called, **Physical Alignment** problem, 
+and if not, **how can we do that?** 
 
-I imagine a child also doesn't solve Navier-Stokes equations for fluids to know that water will flow in a certrain way when spilled from a glass. 
-I imagine what we need for a true physical foundation model, one that is aware of physical laws, or aims to construct a physical constructs, like physicist do.
-This statement may not age well, and it turns out that the approach is completely different to the one we were doing so far, in training models with neural networks 
-, at least the way we are doing that till now.
+Currently with the training methods based on transformer models, 
+the simple answer is **NO**, but it's interesting! The video-generating models, 
+simply by looking at a lot of, e.g. fluid flow videos, have learned patterns 
+that fluid will flow in a specific manner, that it has a property we call viscosity, etc. 
+It hasn't solved Navier-Stokes equations in one way or another, 
+it simply has associated the word fluid to certain types of videos. 
+It learns these patterns purely from observational data rather than incorporating actual physics principles 
+or for example classical force calculations.
 
-The authors of course acknowledge this: "Current models, including ours, fall short as reliable simulators of the physical world... our models still 
-suffer from issues, including the lack of object permanence, inaccuracies in contact-rich dynamics...". They've tested this with free-falling objects, 
-objects rolling down slopes, etc. One way to move forward maybe, like authors have suggested, to change the network architecture such that it could 
-incorporate physical principles, or to actually use physics simulation engines.
+I imagine a child doesn't also solve Navier-Stokes equations to have an intuition that 
+water will flow in a certain way when spilled from a glass. To achieve a true physical foundation model, 
+I suspect that this model one way or another has to have an understanding of the standard model, 
+we might need a fundamentally different approach, or architectures that have true physics-informed learning, 
+e.g. by incorporating physics engines in the training.
+
+The authors of the Cosmo's paper acknowledge this limitation:\
+"*Current models, including ours, fall short as reliable simulators of the physical world... 
+our models still suffer from issues, including the lack of object permanence, 
+inaccuracies in contact-rich dynamics...*".\
+They've tested the model with scenarios like objects free-falling and rolling down slopes, highlighting it's shortcomings.
+
+One way to move forward, as authors have suggested, is maybe to change the network architecture such that it could 
+incorporate physical principles at its core, or use a physics simulation engine. 
+One thing is certain, the future of physical foundation models is much brighter than what it is now!
 
