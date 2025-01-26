@@ -9,6 +9,7 @@ pagination.pagerSize = 5
   showMenuItems = 5
   manuallyOrderedMenuItems = true
   showReadingTime = false
+  math = true
 
 [languages]
   [languages.en.params]
@@ -39,3 +40,12 @@ pagination.pagerSize = 5
         identifier = "about"
         name = "About"
         url = "/about"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\$', '\$']]
