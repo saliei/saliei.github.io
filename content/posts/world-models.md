@@ -3,7 +3,10 @@ title: "World Foundation Models"
 date: "2025-01-19"
 author: "Saeid"
 description: "At CES 2025 event, NVIDIA announced, among other interesting things, including a single chip made out of\
-    72 Blackwell GPUs, with 1.5 ExaFLOPS performance, it's first world foundation model, Cosmos."
+    72 Blackwell GPUs, with 1.5 ExaFLOPS performance, it's first world foundation model, Cosmos. \
+    DeepMind is working on a similar model, and this is also one of xAI's core missions. \
+    I suspect that these models are among the next frontier in scientific and AI research, \
+    following AlphaFold's breakthroughs in protein folding prediction."
 ---
 At CES 2025, NVIDIA announced several interesting projects, 
 including a single chip of 72 Blackwell GPUs, with 1.5 ExaFLOPS FP4 performance!
