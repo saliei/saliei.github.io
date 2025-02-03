@@ -2,7 +2,7 @@
 title: "Spack Package Manager"
 date: "2025-01-14"
 author: "Saeid"
-description: "Recently I gave a talk/mini workshop on spack package manager at SKAO, which forced me to dig into the core of spack.
+description: "Recently I gave a talk/mini workshop on spack package manager at SKAO, for which I dug into the core of spack.
 	Spack boasts itself as the package manager for HPC, and it really is. The idea is straightforward, \
 	streamline what we normally do when compiling and installing software manually on HPC systems using Python. \
 	It's a simple idea but not at all easy to implement."
