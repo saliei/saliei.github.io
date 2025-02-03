@@ -100,9 +100,9 @@ do the partial matrix multiplication, then load the next tiles,
 \$A_{01}\$ and \$B_{10}\$ into shared memory and add the partial multiplication result to the previous one. 
 
 This approach makes it possible that: 
-We use the shared memory. We can choose apriori the tile width, such that the tile fits into shared memory, 
+- We use the shared memory. We can choose apriori the tile width, such that the tile fits into shared memory, 
 as opposed to normal matrix multiplication where we can only do dynamic global memory allocations. 
-Every element of matrices \$A\$ and \$B\$ is used twice by each thread, 
+- Every element of matrices \$A\$ and \$B\$ is used twice by each thread, 
 which cuts down the global memory access by two, compared to the normal access pattern. 
 For example element \$a_{00}\$ is used by both thread(0, 0) and thread(0, 1).
 
@@ -127,8 +127,8 @@ __global__ void matrix_mul(double* A, double* B, double* C) {
     // for a tile size of 2 for a matrix of size 4, possible 
     // amount of movements in either x or y direction is 2 tiles,
     // or N / TILE_WIDTH with possible padding
-    for (int i = 0; i < (N + TILE_WIDTH - 1) / TILE_WIDTH; i++) {
-        //Every thread in a block will load one element from 
+    for (size_t i = 0; i < (N + TILE_WIDTH - 1) / TILE_WIDTH; i++) {
+        // every thread in a block will load one element from 
         // global matrices to the shared tile matrices.
         // we're moving in the x direction for matrix A,
         // select row from A, row is constant for A for this tile
@@ -151,13 +151,12 @@ __global__ void matrix_mul(double* A, double* B, double* C) {
         // ensure threads/warps are done writing and reading
         __syncthreads();
 
-        // partial partial multiplications
+        // partial multiplications
         for (int k = 0; k < TILE_WIDTH; k++) {
             sum += t_A[ty * TILE_WIDTH + k] * t_B[k * TILE_WIDTH + tx];
         }
         
-        // ensure multiplication is finished, 
-        // before overriding the tiles.
+        // ensure multiplication is finished, before overriding the tiles.
         __syncthreads();
     }
 
