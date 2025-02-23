@@ -2,8 +2,13 @@
 title: "Working with Large Language Models"
 date: "2025-02-15"
 author: "Saeid"
-description: "An overview of useful tools and workflows in working with LLMs."
-draft: false
+description: "Large language models are experiencing their Cambrian explosion. 
+    They may not be the path to AGI, but at least they give a taste of what it could be. 
+    The current mainstream approach to rely on scaling, may not be the sole solution, 
+    as the data runs out, and the models are plateauing in benchmarks, 
+    though we may very well see emergent behaviors that surprise us, 
+    as the bitter lesson taught us. In this article, I first review Transformers model, 
+    then summarize useful workflows with LLMs, which I intend to keep updating."
 ---
 Large language models are experiencing their Cambrian explosion. 
 They may not be the path to AGI, but at least they give a taste of what it could be. 
@@ -11,7 +16,8 @@ The current mainstream approach to rely on scaling, may not be the sole solution
 as the data runs out, and the models are plateauing in benchmarks, 
 though we may very well see emergent behaviors that surprise us, 
 as the [bitter lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) taught us. 
-In this article, which I will try to keep updating, I intend to summarize useful workflows with LLMs.
+In this article, I first review Transformers model, then summarize useful workflows with LLMs, 
+which I intend to keep updating.
 
 Like many other breakthroughs, the authors of *Attention is all you need*, 
 perhaps initially didn't fully realize the full impact of their work. 
