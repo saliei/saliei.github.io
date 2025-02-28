@@ -53,6 +53,7 @@ jobs:
           HUGO_ENV: production
           CNAME: www.saliei.io
         run: |
+          cp Saeid-Aliei-CV.pdf ./public
           hugo \
             --gc \
             --minify \
