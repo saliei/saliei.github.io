@@ -5,9 +5,12 @@ author: "Saeid"
 description: "
 A technical report on building 12 startups in 12 months (or less). 
 I'll regularly update this page with changelogs and the progress.
+
+Last Update: 22-04-2025
 "
 ---
 
+Last Update: 
 This will be a technical report on the making of 12 startups or platforms in 12 month or less.
 
 ## Rules
@@ -24,3 +27,9 @@ This will be as close to a marketing agent on social platforms as possible.
     - *start*: 04/20
     - *status*: in progress
     - *links*: will follow
+    - *changelog*:
+    ```
+    04/22
+    - v0.1 released.
+    - initial implementation of agents and the system.
+    ```
