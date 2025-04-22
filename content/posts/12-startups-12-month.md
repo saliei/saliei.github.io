@@ -10,7 +10,8 @@ Last Update: 22-04-2025
 "
 ---
 
-Last Update: 
+Last Update: 22-04-2025
+
 This will be a technical report on the making of 12 startups or platforms in 12 month or less.
 
 ## Rules
